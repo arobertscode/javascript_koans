@@ -33,7 +33,7 @@ describe("About Arrays", function() {
     var fourNumberArray = [1, 2, 3, 4];
 
     expect(fourNumberArray.length).toBe(4);
-    fourNumberArray.push(5, 6);
+    fourNumberArray.push([5, 6]);
     expect(fourNumberArray.length).toBe(6);
 
     var tenEmptyElementArray = new Array(10); 
