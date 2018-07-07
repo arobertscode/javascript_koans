@@ -1,6 +1,6 @@
 describe("About Expects", function() {
 
-  //We shall contemplate truth by testing reality, via spec expectations.  
+  //We shall contemplate truth by testing reality, via spec expectations (test).  
   it("should expect true", function() {
     expect(true).toBeTruthy(); //This should be true
   });
